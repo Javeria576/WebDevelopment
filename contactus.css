@@ -1,0 +1,161 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    background-image: url(../showcase.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container
+{
+    background-color: #0e0e0e;
+    padding: 30px;
+
+}
+
+ul li
+{
+    display: inline-block;
+}
+
+ul
+{
+    float: right;
+    list-style-type: none;
+    margin: auto;
+}
+ ul li a
+ {
+     text-decoration: none;
+     padding: 8px 25px;
+     margin: auto;
+     color: white;
+     text-align: center;
+    
+ }
+ul li a:hover
+{
+    background-color:#ffa502;
+    color: gray;
+}
+
+  li a.active
+  {
+    background-color: rgb(133, 123, 123);
+    color: orange; 
+  }
+  .list-container
+  {
+      margin: auto;
+      align-items: center;
+      max-width: 1200px;
+
+  }
+
+  h4{
+      color: white;
+      text-align: center;
+  }
+  .footer
+  {
+      position: fixed;
+      background-color:#0e0e0e;
+      width:100%;
+      left:0;
+      bottom:0;
+      text-align: center;
+      color: #ffa502;
+  }
+  .footer p{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      font-size: 30px;;
+
+  }
+  .icon
+  {
+      
+      margin: auto;
+      max-width: 1200px;
+
+  }
+  .icon i{
+      color: white;
+      border: 2px solid orange;
+      margin: auto;
+      max-width: 1200px;
+      padding: 20px;
+
+  }
+  .icon i:hover{
+    background-color:#ffa502;
+    color:black;
+  }
+.form
+{
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+    height: 50vh;
+    align-items: center;
+}
+input
+{
+    padding: 0.5em;
+    font-size:1em;
+    width:350px;
+    border-bottom: 5px solid rgb(252, 193, 85);
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+    outline:none;
+
+}
+input.big{
+    padding: 2.5em;
+    font-size:1em;
+}
+label
+{
+    font-size:20px;
+    font-weight: bold;
+    color: black;
+
+}
+.heading
+{
+    text-align:center;
+    color: white;
+    text-decoration: double;
+}
+.different
+{
+    border:none;
+    outline: none;
+    border-radius:1em;
+    width:350px;
+    background-color:#7f8c8d;
+    color: black;
+    font-size: 1em;
+    font-weight:bolder;
+    padding:1em;
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+
+}
+::placeholder {
+    color: black;
+    opacity: 1;
+  }
+  .different a:hover
+  {
+      background-color: rgb(243, 174, 45,0.3);
+      color: black;
+  }

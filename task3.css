@@ -1,0 +1,136 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    background-image: url(../showcase.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container
+{
+    background-color: #0e0e0e;
+    padding: 30px;
+
+}
+
+ul li
+{
+    display: inline-block;
+}
+
+ul
+{
+    float: right;
+    list-style-type: none;
+    margin: auto;
+}
+ ul li a
+ {
+     text-decoration: none;
+     padding: 8px 25px;
+     margin: auto;
+     color: white;
+     text-align: center;
+    
+ }
+ul li a:hover
+{
+    background-color:#ffa502;
+    color: gray;
+}
+
+  li a.active
+  {
+    background-color: rgb(133, 123, 123);
+    color: orange; 
+  }
+  .list-container
+  {
+      margin: auto;
+      align-items: center;
+      max-width: 1200px;
+
+  }
+
+  h4{
+      color: white;
+      text-align: center;
+  }
+  .section
+  {
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+  }
+  .section h1{
+      font-size: 40px;
+  }
+  .section p{
+      color: white;
+      text-align: center;
+  }
+  .button
+  {
+    position: absolute;
+    top:65%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+  }
+
+  .click
+  {
+      border-style: double;
+      border-color: white;
+      border-width: 2px;
+      padding: 8px 28px;
+      color: white;
+      text-decoration: none;
+  }
+  .click:hover{
+    background-color:#ffa502;
+    color:black;
+  }
+  .footer
+  {
+      position: fixed;
+      background-color:#0e0e0e;
+      width:100%;
+      left:0;
+      bottom:0;
+      text-align: center;
+      color: #ffa502;
+  }
+  .footer p{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      font-size: 30px;;
+
+  }
+  .icon
+  {
+      
+      margin: auto;
+      max-width: 1200px;
+
+  }
+  .icon i{
+      color: white;
+      border: 2px solid orange;
+      margin: auto;
+      max-width: 1200px;
+      padding: 20px;
+
+  }
+  .icon i:hover{
+    background-color:#ffa502;
+    color:black;
+  }
